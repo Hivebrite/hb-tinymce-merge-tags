@@ -1,0 +1,1 @@
+# hb-tinymce-merge-tags

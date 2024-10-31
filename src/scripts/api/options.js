@@ -22,17 +22,3 @@ const getSuffix = option('hb_merge_tags_suffix');
 const getTagsList = option('hb_merge_tags_variables');
 
 export { register, getPrefix, getSuffix, getTagsList };
-
-
-
-const registerOption = editor.options.register;
-
-  editor.options.register('hb_merge_tags_prefix', {
-    processor: 'string',
-    default: '{{',
-  });
-
-    editor.options.register('tags_prefix', {
-    processor: 'string',
-    default: '{{',
-  });

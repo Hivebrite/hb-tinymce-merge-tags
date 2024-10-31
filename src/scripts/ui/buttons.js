@@ -3,7 +3,7 @@ import * as Utils from '../utils';
 
 const register = (editor) => {
   editor.ui.registry.addMenuButton('hbMergeTags', {
-    text: Options.getPrefix(editor),
+    text: "Custom variables",
     tooltip: 'add a merge tag',
     fetch: (callback) => {
       const items = Utils.getMergeTagsList(editor);
